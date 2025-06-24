@@ -1,0 +1,24 @@
+.app-footer {
+  button {
+    margin: 0 16px;
+  }
+
+  img {
+    height: 40px;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar {
+    background-color: black;
+    color: white;
+    padding: 0 256px;
+    height: 232px;
+  }
+
+  .mat-mdc-outlined-button:not(:disabled) {
+    border-color: white;
+  }
+}
