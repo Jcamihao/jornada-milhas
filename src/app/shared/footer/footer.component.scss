@@ -1,24 +1,25 @@
 .app-footer {
-  button {
-    margin: 0 16px;
-  }
-
-  img {
-    height: 40px;
-  }
-
-  .spacer {
-    flex: 1 1 auto;
-  }
-
-  .mat-toolbar {
-    background-color: black;
-    color: white;
-    padding: 0 256px;
-    height: 232px;
-  }
-
-  .mat-mdc-outlined-button:not(:disabled) {
-    border-color: white;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      max-width: 100%;
+      max-height: 40px;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+      &.socials {
+        li {
+          text-align: center;
+        }
+      }
+    }
   }
 }
